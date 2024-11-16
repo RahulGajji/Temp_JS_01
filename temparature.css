@@ -1,0 +1,110 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main_container {
+
+  height: 100vh;
+  overflow: hidden;
+  animation-name: main-container_animaton;
+  background-image: url('images/default-image.webp');
+
+}
+
+
+.animate_main_container {
+
+  @keyframes main_container_aimation {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+}
+
+
+.conversion_container {
+
+  
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 15px 15px;
+  border: 2px solid rgb(208, 208, 208);
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+
+.h1 {
+
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(203, 12, 12);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+
+.from_name {
+
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  
+}
+
+
+.from_input {
+  width: 20%;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 5px;
+}
+
+.from_select{
+  color: rgb(157, 63, 39);
+  background-color: azure;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+}
+
+
+.h2 {
+
+
+  font-size: 25px;
+  font-weight: 600;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.display_msge {
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  
+}
+
+
+
+.convert_btn {
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px 10px;
+
+}
