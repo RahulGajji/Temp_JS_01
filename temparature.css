@@ -19,7 +19,7 @@ body {
 .animate_main_container {
 
   @keyframes main_container_aimation {
-    from{opacity: 0;}
+    from{opacity: 1;}
     to{opacity: 1;}
   }
 }
